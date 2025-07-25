@@ -71,19 +71,6 @@ backend/
 | answer     | TEXT         | AI-generated response           |
 | timestamp  | DATETIME     | Defaults to `CURRENT_TIMESTAMP` |
 
-### SQL Schema
-
-```sql
-CREATE DATABASE IF NOT EXISTS travel_assistant;
-
-USE travel_assistant;
-
-CREATE TABLE IF NOT EXISTS chat_history (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    question TEXT NOT NULL,
-    answer TEXT NOT NULL,
-    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
-);
 
 ```
 ### 📡 API Endpoints
@@ -146,6 +133,12 @@ WelcomeMessage: Greeting screen
 ```
 
 # 🚀 Setup Instructions
+
+## Activate venv on Windows
+```
+venv\Scripts\activate
+```
+
 ## Backend (FastAPI)
 ### Install dependencies
 
