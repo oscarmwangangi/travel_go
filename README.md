@@ -6,15 +6,18 @@ An AI-powered travel assistant web application that helps users get travel recom
 
 ## 📑 Table of Contents
 
-- [🧠 System Overview](#-system-overview)
-- [⚙️ Backend Architecture](#-backend-architecture)
-- [🗄️ Database Schema](#-database-schema)
-- [📡 API Endpoints](#-api-endpoints)
-- [🖥️ Frontend Components](#-frontend-components)
-- [🚀 Setup Instructions](#-setup-instructions)
-- [📦 Deployment](#-deployment)
-- [🐞 Troubleshooting](#-troubleshooting)
-- [🛠️ Tech Stack](#-tech-stack)
+- [System Overview](#system-overview)
+- [Backend Architecture](#backend-architecture)
+- [Database Schema](#database-schema)
+- [API Endpoints](#api-endpoints)
+- [Frontend Components](#frontend-components)
+- [Setup Instructions](#setup-instructions)
+- [Deployment](#deployment)
+- [Troubleshooting](#troubleshooting)
+- [Tech Stack](#tech-stack)
+- [Testing the App](#testing-the-app)
+- [License](#license)
+- [Author](#author)
 
 ---
 
