@@ -1,7 +1,7 @@
 # 🧳 Travel Assistant
 
-- An AI-powered Travel Assistant web application that helps users get travel recommendations and information through a conversational interface.
-LLM used: OpenAI (GPT-3.5-turbo)
+An AI-powered travel assistant web application that helps users get travel recommendations and information through a conversational interface.
+
 ---
 
 ## 📑 Table of Contents
@@ -18,7 +18,7 @@ LLM used: OpenAI (GPT-3.5-turbo)
 
 ---
 
-## 🧠 system-overview
+## 🧠 System Overview
 
 Travel Assistant is a full-stack application with the following structure:
 
@@ -28,7 +28,7 @@ Travel Assistant is a full-stack application with the following structure:
 
 ---
 
-# ⚙️ backend-architecture
+## ⚙️ Backend Architecture
 
 ### Directory Structure
 
@@ -59,7 +59,7 @@ backend/
 
 ---
 
-# 🗄️ database-schema
+## 🗄️ Database Schema
 
 **MySQL Database**: `travel_assistant`  
 **Table**: `chat_history`
@@ -71,10 +71,23 @@ backend/
 | answer     | TEXT         | AI-generated response           |
 | timestamp  | DATETIME     | Defaults to `CURRENT_TIMESTAMP` |
 
+### SQL Schema
+
+```sql
+CREATE DATABASE IF NOT EXISTS travel_assistant;
+
+USE travel_assistant;
+
+CREATE TABLE IF NOT EXISTS chat_history (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    question TEXT NOT NULL,
+    answer TEXT NOT NULL,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
 
 ```
 ### 📡 API Endpoints
-Base URL: http://localhost:3000
+Base URL: http://localhost:8000
 
 # 1. Submit Query
 POST /query
@@ -133,12 +146,6 @@ WelcomeMessage: Greeting screen
 ```
 
 # 🚀 Setup Instructions
-
-## Activate venv on Windows
-```
-venv\Scripts\activate
-```
-
 ## Backend (FastAPI)
 ### Install dependencies
 
@@ -209,7 +216,7 @@ app.add_middleware(
 Make sure your API key is valid
 Check usage quotas in OpenAI dashboard
 
-# 🛠️ tech-stack
+# 🛠️ Tech Stack
 - Layer	Tech
 - Frontend	React (Next.js), Tailwind CSS
 - Backend	FastAPI, Python, OpenAI SDK
