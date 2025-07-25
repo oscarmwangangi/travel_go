@@ -209,7 +209,7 @@ app.add_middleware(
 Make sure your API key is valid
 Check usage quotas in OpenAI dashboard
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 - Layer	Tech
 - Frontend	React (Next.js), Tailwind CSS
 - Backend	FastAPI, Python, OpenAI SDK
