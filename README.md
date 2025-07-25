@@ -18,7 +18,7 @@ LLM used: OpenAI (GPT-3.5-turbo)
 
 ---
 
-## 🧠 System Overview
+## 🧠 system-overview
 
 Travel Assistant is a full-stack application with the following structure:
 
@@ -28,7 +28,7 @@ Travel Assistant is a full-stack application with the following structure:
 
 ---
 
-## ⚙️ Backend Architecture
+# ⚙️ backend-architecture
 
 ### Directory Structure
 
@@ -59,7 +59,7 @@ backend/
 
 ---
 
-## 🗄️ Database Schema
+# 🗄️ database-schema
 
 **MySQL Database**: `travel_assistant`  
 **Table**: `chat_history`
@@ -209,7 +209,7 @@ app.add_middleware(
 Make sure your API key is valid
 Check usage quotas in OpenAI dashboard
 
-# 🛠️ Tech Stack
+# 🛠️ tech-stack
 - Layer	Tech
 - Frontend	React (Next.js), Tailwind CSS
 - Backend	FastAPI, Python, OpenAI SDK
