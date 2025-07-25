@@ -1,7 +1,7 @@
 # 🧳 Travel Assistant
 
-An AI-powered travel assistant web application that helps users get travel recommendations and information through a conversational interface.
-
+An AI-powered Travel Assistant web application that helps users get travel recommendations and information through a conversational interface.
+LLM used: OpenAI (GPT-3.5-turbo)
 ---
 
 ## 📑 Table of Contents
