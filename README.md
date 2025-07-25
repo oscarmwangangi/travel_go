@@ -87,7 +87,7 @@ CREATE TABLE IF NOT EXISTS chat_history (
 
 ```
 ### 📡 API Endpoints
-Base URL: http://localhost:8000
+Base URL: http://localhost:3000
 
 # 1. Submit Query
 POST /query
